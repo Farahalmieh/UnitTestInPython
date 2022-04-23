@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="24" errors="1" failures="0" skip="0"><testcase classname="test_calculatorApp.TestCalculate" name="test_Add" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_AddInvalid" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateAdd" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateDivide" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateDivideByZero" time="0.000"><error type="builtins.ValueError" message="inputs can not be null&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;inputs can not be null&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/Users/omarbanna/Desktop/farah/UnitTestInPython/test_calculatorApp.py", line 80, in test_CalculateDivideByZero
+    self.assertRaises(ZeroDivisionError, calculate, '4',20,0) ## this will faild cause its invisable
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 816, in assertRaises
+    return context.handle('assertRaises', args, kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 202, in handle
+    callable_obj(*args, **kwargs)
+  File "/Users/omarbanna/Desktop/farah/UnitTestInPython/calculatorApp.py", line 52, in calculate
+    raise ValueError("inputs can not be null")
+inputs can not be null
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+inputs can not be null
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+inputs can not be null
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateInvalidInput" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateMultiply" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateNull" time="0.000"><system-out><![CDATA[Setup .. 
+inputs can not be null
+inputs can not be null
+inputs can not be null
+inputs can not be null
+inputs can not be null
+inputs can not be null
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CalculateSubtract" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputEmpty" time="0.000"><system-out><![CDATA[Setup .. 
+Input can't be empty
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputFloat" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputInt" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_CheckUserInputInvalid" time="0.000"><system-out><![CDATA[Setup .. 
+test_invalid input is not a number!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Divide" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideByZero" time="0.000"><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideInvalid" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_DivideZeroByNum" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Multiply" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_MultiplyInvalid" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_Subtract" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_SubtractInvalid" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitInvalidInput" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitNo" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="test_isExitYes" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase></testsuite>
